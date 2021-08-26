@@ -14,3 +14,4 @@ package.check <- lapply(
 	}
 )
 
+remotes::install_github("teamookla/ooklaOpenDataR")
