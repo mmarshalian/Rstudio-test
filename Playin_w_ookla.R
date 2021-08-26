@@ -1,9 +1,8 @@
 # Playing with Data
 #
 #
-# packages neeedd
+# packages need
 
-# remove.packages("remotes")
 
 packages = c("remotes")
 
@@ -17,3 +16,4 @@ packages.check <- lapply(
   }
 )
 
+ remotes::install_github("teamookla/ooklaOpenDataR")
